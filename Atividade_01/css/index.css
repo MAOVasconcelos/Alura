@@ -1,0 +1,62 @@
+
+img.banner {
+    width: 100%;
+    margin:20px 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+div.sobreBarbearia {
+    background-color: #CCCCCC;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2Destaque {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+p.pCentralizado {
+    text-align: center;
+    padding: 10px;
+}
+
+.beneficios_e, .beneficios_d {
+    padding:20px  0px;
+    display: block;
+    float: left;
+}
+
+.beneficios_e {
+    width: 50%;
+    padding: 20px;
+}
+
+.beneficios_d {
+    align-items: center;
+    width:45%;
+    padding: 20px 0;
+}
+
+ul li {
+    padding: 5px;
+}
+
+ul{
+    list-style: disc;
+}
+

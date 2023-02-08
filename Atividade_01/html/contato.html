@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Barbearia Alura - Personal Style</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/contato.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <div style="padding: 0; margin: 0;">
+                    <img class="logo" src="../images/logo.png">
+                </div>
+                <div>
+                    <nav>
+                        <ul class="opcoesMenu">
+                            <li>
+                                <a href="../html/index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../html/produtos.html">Produtos</a>
+                            </li>
+                            <li>
+                                <a href="../html/contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main style="text-align: center;">
+            <div style="width: 100%">
+                <form>
+                    <fieldset>
+                        <legend>Informações pessoais</legend>
+                        <p>
+                            <label for="tNome">Nome e sobrenome</label>
+                        </br>
+                        <input type="text" name="tNome" id="tNome" value="" size="58" placeholder="Seu nome completo">
+                        </p>
+                        <p>
+                            <label for="tEmail">Email</label>
+                        </br>
+                        <input type="email" name="tEmail" id="tEmail" value="" size="58" placeholder="seuemail@dominio.com">
+                        </p>
+                        <p>
+                            <label for="tTelefone">Telefone</label>
+                        </br>
+                        <input type="text" name="tTelefone" id="tTelefone" value="" size="58" placeholder="Seu melhor número">
+                        </p>
+                        <p>
+                            <label for="taMensagem">Mensagem</label>
+                        </br>
+                            <textarea name="taMEnsagem" id="taMensagem"  rows="5" cols="56" value="" placeholder="Deixe aqui sua mensagem"></textarea>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Forma de contato</legend>
+                        <p>
+                            <label for="rbPreferencia">Como prefere o nosso contato?</label>
+                            </br>
+                            <input type="radio" name="rbPreferencia" id="rbMensagem" value="email"> E-mail
+                            </br>
+                            <input type="radio" name="rbPreferencia" id="rbMensagem" value="telefone"> Mensagem 
+                            </br>
+                            <input type="radio" name="rbPreferencia" id="rbMensagem" value="whatsapp" checked> Whatsapp 
+                        </p>
+                        <p>
+                            <label for="sHorario">Qual horário prefere ser atendido?</label>
+                            <select name="sHorario" id="sHorario">
+                                <option value="manha" selected>Manhã</option>
+                                <option value="tarde">Tarde</option>
+                                <option value="noite">Noite</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="cbNovidades" id="cbNovidades" value="sim" checked> 
+                            <label for="cbNovidades">Gostaria de receber nossas novidades poe e-mail?</label>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <input type="submit" value="Enviar" style="width:200px;">
+                    </p>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="fundoRodape">
+                <div>
+                    <p class="centralizar"  style="color: #FFFFFF;">
+                        <img src="../images/logo-branco.png" style="width:20%; align-self: center;">
+                    </p>
+                </div>
+                <div class="copy">
+                    <p class="centralizar" style="color: #FFFFFF;">
+                        &copy; Copyright Barbearia Alura - 2019
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+   
+</html>

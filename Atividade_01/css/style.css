@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 940px;
+    margin: auto;
+    display:block-inline;
+}
+
+header {
+    width: 100%;
+}
+
+div.menu {
+    background-color: #CCCCCC;
+    display: inline-block;
+    width: 100%;
+    margin: 0px; 
+}
+
+img.logo {
+    width: 20%;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    top:100px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+ul.opcoesMenu {
+    display:inline-block;
+    width:50%;
+    position: relative;
+    left: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+div ul, div img {
+    padding:0px;
+    display: block;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 10px;
+}
