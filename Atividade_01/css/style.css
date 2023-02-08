@@ -52,3 +52,31 @@ div ul, div img {
 p {
     margin: 10px;
 }
+
+.fundoRodape {
+    float: left;
+    width: 100%;
+    background-color: #000000;
+}
+
+footer div {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.copy {
+    color: #FFFFFF;
+    margin: 20px 0;
+    font-size: 10px;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    display: block;
+    text-align: center;
+}

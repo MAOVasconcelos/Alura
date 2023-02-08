@@ -41,6 +41,7 @@ p.produto {
     font-weight: bold;
 }
 
+/*
 .fundoRodape {
     float: left;
     width: 100%;
@@ -64,7 +65,8 @@ footer div {
     justify-content: center;
 }
 
-img {
+footer img {
     display: block;
     text-align: center;
 }
+*/
