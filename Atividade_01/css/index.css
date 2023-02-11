@@ -61,33 +61,63 @@ p.pCentralizado {
     padding: 0;
 }
 
-div p {
-    padding: 20px;
-    line-height: 2em;
+.descricao p {
+    padding: 10px;
+    line-height: 1em;
 }
 
 .beneficios_e, .beneficios_d {
     padding:20px  0px;
     display: block;
     float: left;
+
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
 }
 
 .beneficios_e {
-    width: 50%;
+    width: 30%;
     padding: 20px;
+    display: inline-block;
 }
 
 .beneficios_d {
     align-items: center;
-    width:45%;
+    width:50%;
     padding: 20px 0;
 }
 
 ul li {
-    padding: 5px;
+    line-height: 1.5em;
+    list-style-type: none;
+}
+
+.beneficios_e li:before {
+    content: "👉";
+}
+
+ul :first-child {
+    font-weight: bold;
 }
 
 ul{
     list-style: disc;
 }
 
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    width:100%;
+    margin: 0 0 3em;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 3em auto;
+}
