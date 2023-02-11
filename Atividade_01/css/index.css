@@ -15,24 +15,55 @@ h1 {
     font-weight: bold;
 }
 
+
 div.sobreBarbearia {
-    background-color: #CCCCCC;
+    width: 100%;
+}
+
+
+section {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.titulo{
+    font-size: 2em;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    line-height: 2em;
+    clear: left;
 }
 
-.h2Destaque {
+.titulo h2 {
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
-
 
 p.pCentralizado {
     text-align: center;
     padding: 10px;
+}
+
+.utensilios {
+    display: inlineblock;
+    width: 25%;
+    float: left;
+}
+
+.imgUtensilios {
+   width: 80%;
+   clear: left;
+}
+
+.descricao {
+    width: 75%;
+    display:inline-block;
+    padding: 0;
+}
+
+div p {
+    padding: 0 10px;
+    line-height: 2em;
 }
 
 .beneficios_e, .beneficios_d {
